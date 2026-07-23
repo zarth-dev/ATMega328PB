@@ -10,7 +10,7 @@ int main(void) {
     PORTD |= (1<<PD7); // Internal registor pull up
     
     uint8_t action; // variable to store fresh read
-    uint8_t BUTTON_PRESS = 1; // flag for button
+    uint8_t BUTTON_PRESS = 0; // flag for button
 
     // loop section -
     while(1) {
