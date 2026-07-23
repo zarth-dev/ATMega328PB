@@ -23,6 +23,7 @@ int main(void) {
             {
                 // Edge detection
                 PORTB ^= (1<<PB5); // toggle the output pin
+                BUTTON_PRESS = action; // remember the new state
             }  
         }   
     }
